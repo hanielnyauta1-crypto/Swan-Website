@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Us | SWAN</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+         <img src="Images/SWAN Logo svg.svg" alt="SWAN Logo" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="what-we-do.html">What We Do</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+        <a href="join.html" class="nav-cta active">Join Us</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Join SWAN</h1>
+      <p>
+        Become part of a vibrant network of women in the Global South who are
+        shaping the future of academia. Fill in the form below to get started.
+      </p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / Join Us
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="form-wrapper reveal">
+        <h2 style="text-align: center; margin-bottom: 0.5rem">Membership Sign-Up</h2>
+        <p style="text-align: center; margin-bottom: 2rem">
+          All fields marked with * are required.
+        </p>
+
+        <!-- Replace the action URL with your Formspree endpoint -->
+        <form
+          action="https://formspree.io/f/xoevzpkj"
+          method="POST"
+          data-formspree
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="country">Country *</label>
+              <input type="text" id="country" name="country" required placeholder="e.g. Zimbabwe" />
+            </div>
+            <div class="form-group">
+              <label for="institution">Institution *</label>
+              <input type="text" id="institution" name="institution" required placeholder="Your university or institution" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="study-level">Level of Study *</label>
+              <select id="study-level" name="study-level" required>
+                <option value="">Select level</option>
+                <option value="Masters">Masters</option>
+                <option value="PhD">PhD</option>
+                <option value="Postdoc">Postdoctoral</option>
+                <option value="Early Career">Early Career Researcher</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="field">Field of Research *</label>
+              <input type="text" id="field" name="field" required placeholder="e.g. Public Health" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="motivation">Motivation for Joining *</label>
+            <textarea
+              id="motivation"
+              name="motivation"
+              required
+              placeholder="Tell us why you want to join SWAN and what you hope to gain..."
+            ></textarea>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">
+              I consent to SWAN storing my information for the purpose of
+              membership communication and network activities. *
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Submit Application
+          </button>
+
+          <div class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section>
+    <div class="container">
+      <div class="section-title reveal">
+        <span>Why Join</span>
+        <h2>Benefits of Membership</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="card-icon">✍️</div>
+          <h3>Protected Writing Time</h3>
+          <p>
+            Access group writing sessions, retreats, and challenges that keep
+            you productive and accountable.
+          </p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🌍</div>
+          <h3>Global South Network</h3>
+          <p>
+            Connect with women scholars across the Global South who understand
+            your context and champion your success.
+          </p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🚀</div>
+          <h3>Career Growth</h3>
+          <p>
+            Benefit from mentorship, workshops, and collaboration opportunities
+            that accelerate your academic career.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+             <a href="index.html" class="logo">
+         <img src="Images/SWAN White Logo svg.svg" alt="SWAN Logo" />
+      </a>
+          </div>
+          <p>Southern Women Academics Network — making academia a viable career choice for women in the Global South.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            li><a href="mailto:southernawaf@gmail.com">southernawaf@gmail.com</a></li>
+            <li><a href="tel:+263 774 341 398">+263 774 341 398</a></li>
+             <li><a href="tel:+44 7570 668 414">+44 7570 668 414</a></li>
+            <li>Global South</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Southern Women Academics Network (SWAN). All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

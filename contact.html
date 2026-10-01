@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | SWAN</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">
+          <img src="Images/SWAN Logo svg.svg" alt="SWAN Logo" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="what-we-do.html">What We Do</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="join.html" class="nav-cta">Join Us</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>
+        Have a question, idea, or partnership proposal? We'd love to hear from
+        you. Reach out to the SWAN team.
+      </p>
+    
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <!-- CONTACT INFO -->
+        <div class="contact-info-card reveal">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-item">
+            <div class="icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <p>southernawaf@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p>+263 774 341 398</p>
+              <p>+44 7570 668</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <strong>Location</strong>
+              <p>Global South — serving women across Africa, Asia, and Latin America</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">⏰</div>
+            <div>
+              <strong>Response Time</strong>
+              <p>We typically respond within 2–3 business days.</p>
+            </div>
+          </div>
+
+          <h4 style="color: #fff; margin-top: 2rem; margin-bottom: 0.8rem">Follow Us</h4>
+          <div class="socials">
+  <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener" aria-label="Twitter / X">
+    <img src="icons/twitter.svg" alt="Twitter" />
+  </a>
+  <a href="https://linkedin.com/company/yourhandle" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <img src="icons/linkedin.svg" alt="LinkedIn" />
+  </a>
+  <a href="https://facebook.com/yourhandle" target="_blank" rel="noopener" aria-label="Facebook">
+    <img src="icons/facebook.svg" alt="Facebook" />
+  </a>
+  <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" aria-label="Instagram">
+    <img src="icons/instagram.svg" alt="Instagram" />
+  </a>
+</div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="reveal">
+          <div class="form-wrapper" style="max-width: 100%; margin: 0">
+  <h3 style="margin-bottom: 1.5rem">Send Us a Message</h3>
+
+  <!--
+    Replace YOUR_FORM_ID with the ID from your Formspree dashboard.
+    Full action URL should look like: https://formspree.io/f/xyzabcde
+  -->
+  <form
+    id="contact-form"
+    action="https://formspree.io/f/xoevzpkj"
+    method="POST"
+  >
+    <div class="form-row">
+      <div class="form-group">
+        <label for="c-name">Full Name *</label>
+        <input
+          type="text"
+          id="c-name"
+          name="name"
+          required
+          placeholder="Your name"
+          data-fs-field
+        />
+        <span data-fs-error="name"></span>
+      </div>
+      <div class="form-group">
+        <label for="c-email">Email *</label>
+        <input
+          type="email"
+          id="c-email"
+          name="email"
+          required
+          placeholder="you@example.com"
+          data-fs-field
+        />
+        <span data-fs-error="email"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="c-subject">Subject *</label>
+      <input
+        type="text"
+        id="c-subject"
+        name="_subject"
+        required
+        placeholder="How can we help?"
+        data-fs-field
+      />
+      <span data-fs-error="_subject"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="c-message">Message *</label>
+      <textarea
+        id="c-message"
+        name="message"
+        required
+        placeholder="Write your message here..."
+        data-fs-field
+      ></textarea>
+      <span data-fs-error="message"></span>
+    </div>
+
+    <!-- Honeypot for spam bots — hidden from users -->
+    <input
+      type="text"
+      name="_gotcha"
+      style="display: none"
+      tabindex="-1"
+      autocomplete="off"
+    />
+
+
+    <button
+      type="submit"
+      class="btn btn-blue"
+      style="width: 100%"
+      data-fs-submit-btn
+    >
+      Send Message
+    </button>
+  </form>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="section-title reveal">
+        <span>FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="card reveal">
+          <h3>Who can join SWAN?</h3>
+          <p>
+            Women in the Global South pursuing tertiary education from Masters
+            to PhD level, as well as early-career researchers and women in
+            academia.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3>Is membership free?</h3>
+          <p>
+            Yes, SWAN membership is free. Some specialized retreats or events
+            may have associated costs, but we work to secure funding to support
+            members.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3>How do I get involved?</h3>
+          <p>
+            Simply fill out the <a href="join.html" style="color: var(--burgundy); font-weight: 600">Join Us</a>
+            form, and our team will be in touch with next steps.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3>Can I partner with SWAN?</h3>
+          <p>
+            Absolutely. We welcome partnerships with institutions,
+            organizations, and funders who share our vision. Contact us to
+            explore collaboration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+             <a href="index.html" class="logo">
+         <img src="Images/SWAN White Logo svg.svg" alt="SWAN Logo" />
+      </a>
+          </div>
+          <p>Southern Women Academics Network — making academia a viable career choice for women in the Global South.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:southernawaf@gmail.com">southernawaf@gmail.com</a></li>
+            <li><a href="tel:+263 774 341 398">+263 774 341 398</a></li>
+             <li><a href="tel:+44 7570 668 414">+44 7570 668 414</a></li>
+            <li>Global South</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Southern Women Academics Network (SWAN). All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+ <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+<script>
+  window.formspree =
+    window.formspree ||
+    function () {
+      (formspree.q = formspree.q || []).push(arguments);
+    };
+
+  formspree("initForm", {
+    formElement: "#contact-form",
+    formId: "YOUR_FORM_ID",
+  });
+</script>
+</body>
+</html>
